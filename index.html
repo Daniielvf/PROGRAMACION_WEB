@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum Vitae</title>
+</head>
+
+<body>
+
+    <h1>Wilberth Daniel Velásquez Flores</h1>
+
+    <h2>Currículum Vitae</h2>
+
+    <picture>
+        <source srcset="Imagenes/fotoavif.avif" type="image/avif">
+        <source srcset="Imagenes/fotowebp.webp" type="image/webp">
+
+         <img
+        src="Imagenes/fotojpg.jpg"
+        alt="Fotografía de Wilberth Daniel Velásquez Flores"
+        width="879"
+        height="1600"
+    </picture>
+
+    <hr>
+
+    <h2>Datos Personales</h2>
+
+    <p><strong>Nombre:</strong> Wilberth Daniel Velásquez Flores</p>
+
+    <p><strong>Fecha de nacimiento:</strong> 21/01/2006</p>
+
+    <p><strong>Edad:</strong>20</p>
+
+    <p><strong>Dirección:</strong> Xecaracoj, Sector 3, Quetzaltenango</p>
+
+    <p><strong>Teléfono:</strong> +502 3070-1088</p>
+
+    <p><strong>Correo electrónico:</strong> wilverthvflores@gmail.com</p>
+
+    <hr>
+
+    <h2>Perfil Profesional</h2>
+
+    <p>
+        Estudiante de sexto semestre de Ingeniería en Sistemas, responsable,
+        organizado y con buena disposición para aprender. Me considero una
+        persona adaptable, comprometida y con facilidad para trabajar en equipo.
+        Busco seguir desarrollando mis conocimientos y habilidades, aportando
+        siempre una actitud positiva y ganas de superarme.
+    </p>
+
+    <hr>
+
+    <h2>Formación Académica</h2>
+
+    <h3>Universidad</h3>
+
+    <p>
+        <strong>Universidad:</strong> Universidad Mesoamericana, Sede Quetzaltenango
+    </p>
+
+    <p>
+        <strong>Carrera:</strong> Ingeniería en Sistemas, Informática y Ciencias de la Computación
+    </p>
+
+    <p>
+        <strong>Período:</strong> Sexto semestre - Actualidad
+    </p>
+
+    <h3>Diversificado</h3>
+
+    <p>
+        <strong>Institución:</strong> Colegio Preuniversitario Friedrich Von Hayek
+    </p>
+
+    <p>
+        <strong>Carrera:</strong> Bachillerato en Computación con Orientación Científica
+    </p>
+
+    <p>
+        <strong>Año de graduación:</strong> 2023
+    </p>
+
+    <hr>
+
+    <h2>Habilidades</h2>
+
+    <ul>
+        <li>Trabajo en equipo</li>
+        <li>Responsabilidad</li>
+        <li>Aprendizaje rápido</li>
+        <li>Manejo de computadoras</li>
+        <li>Conocimientos básicos de programación</li>
+        <li>Resolución de problemas</li>
+    </ul>
+
+    <hr>
+
+    <h2>Idiomas</h2>
+
+    <ul>
+        <li>Español</li>
+        <li>Inglés (Básico)</li>
+    </ul>
+
+    <hr>
+
+    <h2>Certificaciones</h2>
+
+    <p><strong>Electricidad Industrial</strong></p>
+
+    <p>
+        <strong>Institución:</strong> FUNDAP - Programa de Educación Integral para la Vida (PEVI)
+    </p>
+
+    <p>
+        <strong>Duración:</strong> 400 horas de formación
+    </p>
+
+    <hr>
+
+    <h2>Contacto y disponibilidad</h2>
+
+    <form method="post">
+
+
+
+        <p>
+
+    <label for="nombre">
+        Nombre completo:
+    </label>
+
+    <br>
+
+    <input
+        type="text"
+        id="nombre"
+        name="nombre"
+        required>
+
+    </p>
+
+    <p>
+
+    <label for="correo">
+        Correo electrónico:
+    </label>
+
+    <br>
+
+    <input
+        type="email"
+        id="correo"
+        name="correo"
+        required>
+    </p>
+
+    <p>
+    <label for="telefono">
+        Número de teléfono:
+    </label>
+
+    <br>
+
+    <input
+        type="tel"
+        id="telefono"
+        name="telefono"
+        required>
+        </p>
+
+    <label for="fecha_inicio">Fecha disponible para iniciar:</label><br>
+    <input
+    type="date"
+    id="fecha_inicio"
+    name="fecha_inicio"
+    min="2026-07-22"
+    max="2027-07-22"
+    required><br><br>
+
+    <p>
+
+    <label for="hora-entrevista">
+        Hora preferida para entrevista:
+    </label>
+    <br>
+
+    <input
+        type="time"
+        id="hora-entrevista"
+        name="hora_entrevista"
+        min="08:00"
+        max="17:00"
+        step="1800"
+        required>
+    </p>
+    
+    <p>
+
+    <label for="modalidad">
+        Modalidad de trabajo:
+    </label>
+
+    <br>
+
+    <select
+        id="modalidad"
+        name="modalidad"
+        required>
+
+        <option value="">
+            Seleccione una modalidad
+        </option>
+
+        <option value="presencial">
+            Presencial
+        </option>
+
+        <option value="remoto">
+            Remoto
+        </option>
+
+        <option value="hibrido">
+            Híbrido
+        </option>
+
+    </select>
+
+    </p>
+
+    <p>
+    <label for="presentacion">
+        Carta breve de presentación:
+    </label>
+    <br>
+    <textarea
+        id="presentacion"
+        name="presentacion"
+        rows="8"
+        cols="50"
+        required></textarea>
+    </p>
+
+    <button type="submit">Enviar</button>
+
+    </form>
+</body>
+
+</html>
