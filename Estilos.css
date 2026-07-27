@@ -1,0 +1,132 @@
+
+/*------ Estilo general ------*/
+
+body{
+    background-color: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    margin: 0;
+    padding: 20px;
+}
+
+/*------ Contenedor ------*/
+
+.contenedor{
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/*------ Titulos ------*/
+
+h1{
+    text-align: center;
+    color: #08295c;
+    font-size: 40px;
+}
+
+h2{
+    text-align: center;
+    color: #08295c;
+    border-bottom: 2px solid #08295c;
+    padding-bottom: 5px;
+}
+
+h3{
+    color: #444444;
+}
+
+/*------ Datos personales ------*/
+
+.datos-personales{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.informacion{
+    width: 65%;
+}
+
+.foto{
+    width: 30%;
+    text-align: center;
+}
+
+/*------ Foto ------*/
+
+.foto img{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 4px solid #08295c;
+    object-fit: cover;
+}
+
+/*------ Parrafos ------*/
+
+p{
+    font-size: 18px;
+}
+
+/*------ Listas ------*/
+
+ul{
+    padding-left: 25px;
+}
+
+li{
+    margin-bottom: 8px;
+}
+
+/*------ Formulario ------*/
+
+form{
+    background-color: #f8f9fa;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+label{
+    font-weight: bold;
+}
+
+input,
+select,
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/*------ Validacion ------*/
+
+input:valid{
+    border: 2px solid #2E7D32;
+}
+
+input:invalid{
+    border: 2px solid #B3261E;
+}
+
+/*------ Boton ------*/
+
+button{
+    background-color: #08295c;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: #0A58CA;
+}
