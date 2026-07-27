@@ -38,7 +38,12 @@ h3{
     color: #444444;
 }
 
-/*------ Datos personales ------*/
+/*------ Datos personales ------
+
+display: flex ---- Activa Flexbox y acomoda los elementos en una fila.
+justify-content: space-between ---- Deja espacio entre la información y la foto.
+align-items: flex-start ---- Alinea ambos elementos desde la parte superior. 
+*/
 
 .datos-personales{
     display: flex;
